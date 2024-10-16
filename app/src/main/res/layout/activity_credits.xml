@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/aboutimage">
+
+    <TextView
+        android:id="@+id/about_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="         TIC TAC TOE\n An Android Application"
+        android:textColor="#201818"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/statement"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#D2C8FD"
+        android:radius="156dp"
+        android:text="Hi, I am Akshat Tamrakar and my partner Tejas Paliwal. We have made this game for our college Micro Project. This game is our inspiration that had taken us from pen paper to
+mobile app."
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/team_members"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/statement"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:text="Let's meet our team:"-->
+<!--        android:textColor="#302626"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/team_names"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/team_members"-->
+<!--        android:text="Developed by: Mr. Akshat Tamrakar"-->
+<!--        android:textSize="16sp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/team_names1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/team_names"-->
+<!--        android:text="Designed by: Mr. Tejas Paliwal"-->
+<!--        android:textSize="16sp" />-->
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statement"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Back" />
+
+</RelativeLayout>
